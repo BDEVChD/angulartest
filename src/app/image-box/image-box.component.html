@@ -1,0 +1,20 @@
+
+<div id="image-box">
+    <div class="left">
+        <h2>{{characters[0].name}}</h2>
+        <img src="https://ogden_images.s3.amazonaws.com/www.timesrepublican.com/images/2019/05/02231710/Fox-WEB-1100x739.jpg">
+        <app-title></app-title>
+
+    </div>
+    <div class="right">
+        <h3>Characters </h3>
+        <ul>
+            <li *ngFor="let character of characters">Name: {{character.name}} <br>
+                {{character.planet}}</li>
+        </ul>
+        
+    </div>
+   
+
+    </div>
+
